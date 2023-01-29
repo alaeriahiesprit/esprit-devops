@@ -6,7 +6,8 @@ pipeline{
        steps{
            
            echo 'Check ...';
-           sh """mvn -version"""
+           sh """pwd"""
+           sh """date"""
            
        }
        
