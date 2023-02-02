@@ -1,6 +1,11 @@
 pipeline{
  agent any
     stages {
+             stage('step 0 : Clean Folder') {
+            steps {
+                  sh 'pwd'
+            }
+        }
         stage('step 1 : Clone code from Git') {
             steps {
                 echo "GitHub clone step"
