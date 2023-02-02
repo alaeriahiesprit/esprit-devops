@@ -3,7 +3,7 @@ pipeline{
     stages {
              stage('step 0 : Clean Folder') {
             steps {
-                  sh 'pwd'
+                  sh 'whoami'
             }
         }
         stage('step 1 : Clone code from Git') {
